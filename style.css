@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 30px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1rem;
+}
+.container{
+    min-height: 72vh;
+    background-color:black;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;    
+    border-radius: 20px;
+    padding: 24px;
+    background-image: url('wl.jpg');
+
+}
+.bottom{
+    position: absolute;
+    height: 100px;
+    background-color:black;
+    color: white;
+    bottom: 0px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    margin: o;
+
+
+    
+    cursor: pointer;
+}
+.songItemcontainer{
+    margin-top: 75px;
+    
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.songItem img{
+    width: 9%;
+    height: 50px;
+    margin: 0 25px;
+    border-radius: 34px;
+}
+.timestemp{
+    margin: 0 15px;
+    width: 13px;
+    height: 23px;
+    text-align: center;
+}
+.timestemp i{
+    cursor: pointer;
+    
+}
+.songInfo{
+    position: absolute;
+    left: 2px;
+    font-family: 'Lato', sans-serif;
+    bottom: 10px;
+
+}
+.songinfo img{
+    height: 60%;
+    width: 140px;
+    opacity: 0;
+    transition: opacity 0.4s  ease-in;
+}
+
